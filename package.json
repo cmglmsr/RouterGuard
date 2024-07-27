@@ -1,7 +1,8 @@
 {
-  "name": "routerguard",
+  "name": "rtguard",
   "version": "1.0.0",
-  "description": "",
+  "type": "module",
+  "description": "Router Guard is an open-source, highly-customizable npm package that protects your routes against web application vulnerabilities.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
