@@ -1,0 +1,113 @@
+POST http://localhost:1234/
+Content-Type: application/json
+
+{
+  "user": {
+    "id": 12345,
+    "name": "Cem Gülümsér",
+    "email": "cem@example.com",
+    "profile": {
+      "age": 30,
+      "gender": "male",
+      "preferences": {
+        "newsletter": true,
+        "notifications": {
+          "email": true,
+          "sms": false,
+          "push": true
+        }
+      },
+      "social": {
+        "twitter": "@cem",
+        "linkedin": "linkedin.com/in/cem",
+        "github": "github.com/cem"
+      }
+    },
+    "friends": [
+      {
+        "id": 54321,
+        "name": "Jane Doe",
+        "email": "jane@example.com",
+        "status": "active"
+      },
+      {
+        "id": 67890,
+        "name": "John Smith",
+        "email": "john@example.com",
+        "status": "asd"
+      }
+    ]
+  },
+  "orders": [
+    {
+      "orderId": "ORD123456",
+      "date": "2023-08-21",
+      "items": [
+        {
+          "productId": "P12345",
+          "productName": "Smartphone",
+          "quantity": 1,
+          "price": 699.99,
+          "details": {
+            "color": "black",
+            "warranty": "2 years",
+            "accessories": ["charger", "earphones"]
+          }
+        },
+        {
+          "productId": "P54321",
+          "productName": "Laptop",
+          "quantity": 1,
+          "price": 1299.99,
+          "details": {
+            "color": "silver",
+            "warranty": "1 year",
+            "accessories": ["charger", "bag"]
+          }
+        }
+      ],
+      "shippingAddress": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "paymentMethod": "Credit Card",
+      "orderStatus": "Shipped"
+    },
+    {
+      "orderId": "ORD789012",
+      "date": "2023-08-15",
+      "items": [
+        {
+          "productId": "P67890",
+          "productName": "Tablet",
+          "quantity": 2,
+          "price": 299.99,
+          "details": {
+            "color": "white",
+            "warranty": "1 year",
+            "accessories": ["charger"]
+          }
+        }
+      ],
+      "shippingAddress": {
+        "street": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90001",
+        "country": "USA"
+      },
+      "paymentMethod": "PayPal",
+      "orderStatus": "Delivered"
+    }
+  ],
+  "subscription": {
+    "plan": "Premium",
+    "startDate": "2023-01-01",
+    "endDate": "2024-01-01",
+    "autoRenew": true,
+    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
+  }
+}

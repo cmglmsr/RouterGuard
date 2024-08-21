@@ -1,6 +1,6 @@
 {
   "name": "rtguard",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "module",
   "description": "Router Guard is an open-source, highly-customizable npm package that protects your routes against web application vulnerabilities.",
   "main": "index.js",
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/cmglmsr/RouterGuard/issues"
   },
-  "homepage": "https://github.com/cmglmsr/RouterGuard#readme"
+  "homepage": "https://github.com/cmglmsr/RouterGuard#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "rtguard": "^1.0.2"
+  }
 }

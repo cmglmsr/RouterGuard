@@ -1,4 +1,9 @@
 import fs from 'fs'
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 function buildRegExp(str) {
     const specialChars = /[.*+?^${}()|[\]\\]/g;
@@ -14,11 +19,14 @@ function buildRegExp(str) {
  */
 function exportPayloads() {
     let payloads = {}
-    const payloadFiles = fs.readdirSync('.', {recursive: true}).filter(dir => dir.endsWith('.txt'))
+    const payloadFiles = fs.readdirSync(__dirname, {recursive: true}).filter(dir => dir.endsWith('.txt'))
     for(let pf of payloadFiles) {
         let payloadName = pf.split('.')[0].replace(new RegExp('(\\\\)|(\/)'), "-")
-        payloads[payloadName] = fs.readFileSync(pf, {encoding: 'ascii'}).split('\r\n').map(pl => buildRegExp(pl))
+        payloads[payloadName] = fs.readFileSync(__dirname + '\\' + pf, {encoding: 'ascii'}).split('\r\n').map(pl => buildRegExp(pl))
     }
     return payloads
 }
-export {exportPayloads}
+
+const payloads = Object.entries(exportPayloads())
+
+export {payloads}
