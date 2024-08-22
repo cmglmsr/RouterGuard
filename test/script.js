@@ -2,8 +2,9 @@ import express, {json} from "express";
 import {rtguard} from "../index.js";
 
 const rt = new rtguard({
-    plevel: 10,
-    maxRequestSize: 30000
+    plevel: 2,
+    maxRequestSize: 30000,
+    verbose: true
 })
 
 const app = express()
