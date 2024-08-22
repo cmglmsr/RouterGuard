@@ -27,6 +27,26 @@ function exportPayloads() {
     return payloads
 }
 
+/**
+ * Groups payloads in single regular expressions.
+ * @returns []
+ */
+function groupPayloads(payloads) {
+    let res = {}
+    for(const entry of payloads) {
+        const attackType = entry[0]
+        const attackPatterns = entry[1]
+        let combinedPattern = new RegExp()
+        console.log(attackType)
+        for(const pattern of attackPatterns) {
+            console.log(pattern)
+            combinedPattern = new RegExp(combinedPattern.source + "|" + pattern.source);
+        }
+        res[attackType] = combinedPattern
+    }
+    return res
+}
+
 const payloads = Object.entries(exportPayloads())
 
 export {payloads}

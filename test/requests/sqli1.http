@@ -4,11 +4,11 @@ Content-Type: application/json
 {
   "user": {
     "id": 12345,
-    "name": "Cem Gülümsér",
-    "email": "cem@example.com",
+    "name": "or true--",
+    "email": "<image src/onerror=prompt(8)>",
     "profile": {
       "age": 30,
-      "gender": "male",
+      "gender": "cat /etc/passwd",
       "preferences": {
         "newsletter": true,
         "notifications": {
@@ -18,7 +18,7 @@ Content-Type: application/json
         }
       },
       "social": {
-        "twitter": "@cem",
+        "twitter": "{{4+4}}",
         "linkedin": "linkedin.com/in/cem",
         "github": "github.com/cem"
       }
@@ -34,7 +34,7 @@ Content-Type: application/json
         "id": 67890,
         "name": "John Smith",
         "email": "john@example.com",
-        "status": "bbbbb"
+        "status": "inactive"
       }
     ]
   },
@@ -49,14 +49,14 @@ Content-Type: application/json
           "quantity": 1,
           "price": 699.99,
           "details": {
-            "color": "replace",
-            "warranty": "like",
-            "accessories": ["declare @q nvarchar (200) select @q = 0x770061 ...", "earphones"]
+            "color": "black",
+            "warranty": "2 years",
+            "accessories": ["charger", "earphones"]
           }
         },
         {
           "productId": "P54321",
-          "productName": "asdasdasd",
+          "productName": "Laptop",
           "quantity": 1,
           "price": 1299.99,
           "details": {
@@ -108,6 +108,7 @@ Content-Type: application/json
     "startDate": "2023-01-01",
     "endDate": "2024-01-01",
     "autoRenew": true,
-    "features": [" access", "Priority support", "Ad-free experience"]
+    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
   }
 }
+

@@ -74,6 +74,9 @@ const guardConfig = {
 };
 ```
 
+## Credits
+All payloads and wordlists are taken from https://github.com/payloadbox.
+
 ## Contribution
 
 Contributions are welcome! Feel free to open an issue or submit a pull request to enhance RT Guard middleware.
