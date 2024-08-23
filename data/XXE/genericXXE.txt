@@ -1,0 +1,13 @@
+<!ENTITY file SYSTEM "file:///etc/passwd">
+<!ENTITY xxe SYSTEM
+<!DOCTYPE replace
+<!ENTITY ent SYSTEM
+<!ENTITY ac SYSTEM
+<![CDATA[<!DOCTYPE doc [<!ENTITY % dtd SYSTEM
+<soap:Body>
+</soap:Body>
+xmlns:xlink="
+<image xlink:href="expect://
++ADwAIQ-DOCTYPE
+<!ENTITY test SYSTEM "https://
+<!ENTITY xxe SYSTEM "https://

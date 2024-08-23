@@ -1,4 +1,4 @@
-POST http://localhost:1234/what/is/this?shizz=3
+POST http://localhost:1234/what/is/this?shizz=http://google.com
 Content-Type: application/json
 
 {

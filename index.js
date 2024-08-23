@@ -31,7 +31,7 @@ class rtguard {
     }
 
     checkURL(url, regex) {
-        return regex.test(url)
+        return regex.test(url) || regex.test(decodeURIComponent(url))
     }
 
     checkHeaders(headers, regex) {
