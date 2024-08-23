@@ -4,7 +4,16 @@
 
 The **RT Guard** middleware is a security middleware for Express.js applications. It is designed to audit incoming HTTP requests for potential malicious payloads based on predefined patterns. This middleware provides configurable options to define security levels, allowed request methods, and allowed content types. It can block requests that are deemed suspicious, providing a layer of protection against common web vulnerabilities.
 
-## Features
+## Security Features
+
+- **SQL Injection Protection**: Detects and blocks suspicious SQL patterns in URLs, headers, and JSON bodies, preventing unauthorized database access.
+- **XSS Injection Protection**: Guards against Cross-Site Scripting by identifying and stopping malicious scripts embedded in requests.
+- **XXE Injection Protection**: Prevents XML External Entity attacks by scanning and filtering XML input to block malicious payloads.
+- **Open Redirect Protection**: Identifies and mitigates open redirect vulnerabilities by analyzing URL patterns that could lead to phishing or malicious redirects.
+- **RCE Injection Protection**: Blocks Remote Code Execution attempts by detecting and intercepting code injection patterns in incoming requests.
+- **RFI/LFI Protection**: Protects against Remote and Local File Inclusion attacks by scanning for malicious file paths in requests, ensuring server integrity.
+
+## Customization Features
 
 - **Configurable paranoia level (`plevel`)**: Defines how many attack patterns need to be detected before blocking a request.
 - **Allowed HTTP Methods (`allowedBodyTypes`)**: Restricts requests to a specified set of HTTP methods.

@@ -4,11 +4,12 @@ import {traverse} from "./utils/bodyUtils.js";
 class rtguard {
 
     constructor(config) {
-        this.plevel = config?.plevel || 4 // Paranioa level: threshold number of patterns needed to be detected before blocking the request
+        this.plevel = config?.plevel || 4 // Paranioa level: threshold number of patterns needed to be detected before classifying the request as malicious
         this.allowedBodyTypes = config?.allowedBodyTypes || ['application/json']
         this.allowedMethods = config?.allowedMethods || ['GET', 'POST']
         this.maxRequestSize = config?.maxRequestSize || 4096
         this.verbose = !!config?.verbose
+        this.action = config?.action || 'block' // Action to take when a malicious request is detected
 
         if(this.plevel > 10 || this.plevel < 1) {
             throw new Error('Illegal value: plevel must be in between 1-10.')
@@ -52,6 +53,7 @@ class rtguard {
         this.log([`\n[+] Execution trace ${req.method} ${req.url}:`])
         const initialAuditResult = this.initialAudit(req)
         if(initialAuditResult) {
+            this.logSummary(null, start, true, req)
             return res.status(418).send(`This request was blocked: ${initialAuditResult}`)
         }
         if(!req.body) {
@@ -92,6 +94,10 @@ class rtguard {
     logSummary(audits, start, blocked, req) {
         const end = process.hrtime(start);
         const elapsedTime = (end[0] * 1000) + (end[1] / 1e6);
+        if(!audits) {
+            this.log([`\n[+] Audit Summary ${req.method} ${req.url}:\n\tRequest was blocked at initial audit stage.\n\tNumber of detected patterns: N/A\n\tTime taken to audit the request: ${elapsedTime} ms\n`])
+            return
+        }
         if(blocked) {
             this.log([`\n[+] Audit Summary ${req.method} ${req.url}:\n\tRequest was blocked.\n\tNumber of detected patterns: ${audits.length}\n\tTime taken to audit the request: ${elapsedTime} ms\n`])
         } else {

@@ -1,4 +1,4 @@
-POST http://localhost:1234/what/is/this?shizz=http://google.com
+POST http://localhost:1234/what/is/this?shizz=https://google.com
 Content-Type: application/json
 
 {
@@ -111,4 +111,3 @@ Content-Type: application/json
     "features": ["Unlimited access", "Priority support", "Ad-free experience"]
   }
 }
-

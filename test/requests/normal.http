@@ -1,0 +1,46 @@
+PUT http://localhost:1234/normal
+Content-Type: application/json
+
+{
+  "manualLicenceComponents": [
+    {
+      "type": "Product",
+      "props": {
+        "code": "TR7-HS-715-SEC"
+      }
+    },
+    {
+      "type": "Additions",
+      "props": {
+        "addition_type": "Network Module",
+        "code": "TR-NM-7000-S14436",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Additions",
+      "props": {
+        "addition_type": "Transceiver Module",
+        "code": "TR-SFP-LX-MS1310",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Maintenance",
+      "props": {
+        "code": "TR7-HS-715-SEC-Dedicated-3M",
+        "start_date": "2024-08-23"
+      }
+    }
+  ],
+  "licenceConfiguration": {
+    "name": "TestLic",
+    "organization": "TR7",
+    "type": "or 1=1--",
+    "isPoc": true,
+    "ttlUnit": "weeks",
+    "ttl": 15
+  },
+  "licenceOrganization": "TR7",
+  "licenceName": "Test"
+}

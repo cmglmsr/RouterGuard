@@ -2,8 +2,10 @@ import express, {json} from "express";
 import {rtguard} from "../index.js";
 
 const rt = new rtguard({
-    plevel: 10,
-    maxRequestSize: 30000,
+    plevel: 5,
+    allowedBodyTypes: ['application/json'],
+    allowedMethods: [ 'PUT', 'GET', 'POST'],
+    maxRequestSize: 8192,
     verbose: true
 })
 
