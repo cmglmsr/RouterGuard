@@ -4,6 +4,7 @@
   "type": "module",
   "description": "Router Guard is an open-source, highly-customizable npm package that protects your routes against web application vulnerabilities.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
