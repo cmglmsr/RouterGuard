@@ -22,8 +22,16 @@ class rtguard {
         if(this.allowedMethods?.length && !this.allowedMethods.includes(req.method)) {
             return 'Request method not allowed.'
         }
-        if(this.allowedBodyTypes?.length && req.headers['content-type'] && !this.allowedBodyTypes.includes(req.headers['content-type'])) {
-            return 'Request content type not allowed.'
+        if(this.allowedBodyTypes?.length && req.headers['content-type']) {
+            let found = false
+            for(const bt of this.allowedBodyTypes) {
+                if(req.headers['content-type'].includes(bt)) {
+                    found = true
+                }
+            }
+            if(!found) {
+                return 'Request content type not allowed.'
+            }
         }
         if(this.maxRequestSize && req.headers['content-length'] && parseInt(req.headers['content-length']) > this.maxRequestSize) {
             return 'Request exceeds maximum allowed size.'
