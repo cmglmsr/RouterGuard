@@ -1,6 +1,6 @@
 import fs from 'fs'
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
+import { dirname, join  } from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -18,13 +18,15 @@ function buildRegExp(str) {
  * @returns {{}}
  */
 function exportPayloads() {
-    let payloads = {}
-    const payloadFiles = fs.readdirSync(__dirname, {recursive: true}).filter(dir => dir.endsWith('.txt'))
-    for(let pf of payloadFiles) {
-        let payloadName = pf.split('.')[0].replace(new RegExp('(\\\\)|(\/)'), "-")
-        payloads[payloadName] = fs.readFileSync(__dirname + '\\' + pf, {encoding: 'ascii'}).split('\r\n').map(pl => buildRegExp(pl))
+    let payloads = {};
+    const payloadFiles = fs.readdirSync(__dirname, { recursive: true }).filter(dir => dir.endsWith('.txt'));
+    for (let pf of payloadFiles) {
+        let payloadName = pf.split('.')[0].replace(/[/\\]/g, "-");  // Replace both forward and backslashes
+        payloads[payloadName] = fs.readFileSync(join(__dirname, pf), { encoding: 'ascii' })
+            .split('\r\n')
+            .map(pl => buildRegExp(pl));
     }
-    return payloads
+    return payloads;
 }
 
 /**
