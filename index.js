@@ -1,5 +1,9 @@
 import {payloads} from "./data/index.js";
 import {traverse} from "./utils/bodyUtils.js";
+import multer from "multer";
+import bodyParser from "body-parser";
+
+const upload = multer();
 
 class rtguard {
 
@@ -22,7 +26,7 @@ class rtguard {
         if(this.allowedMethods?.length && !this.allowedMethods.includes(req.method)) {
             return 'Request method not allowed.'
         }
-        if(this.allowedBodyTypes?.length && req.headers['content-type']) {
+        if(this.allowedBodyTypes?.length && !this.allowedBodyTypes.includes('*') && req.headers['content-type']) {
             let found = false
             for(const bt of this.allowedBodyTypes) {
                 if(req.headers['content-type'].includes(bt)) {
@@ -56,7 +60,57 @@ class rtguard {
         return traverse(body, regex);
     }
 
-    rtguard(req, res, next) {
+    parseBody(req, res) {
+        const contentType = (req.headers['content-type'] || '').trim();
+        let parsedBody;
+
+        if(!contentType || contentType.length === 0) {
+            return null
+        }
+
+        return new Promise((resolve, reject) => {
+            if (contentType.includes('application/json')) {
+                bodyParser.json()(req, res, () => {
+                    parsedBody = req.body;
+                    resolve({body: parsedBody, type: 'application/json'})
+                });
+            } else if (contentType.includes('multipart/form-data')) {
+                upload.any()(req, res, () => {
+                    parsedBody = { files: req.files, fields: req.body };
+                    resolve({body: parsedBody, type: 'multipart/form-data'})
+                });
+            } else if (contentType.includes('application/x-www-form-urlencoded')) {
+                bodyParser.urlencoded({ extended: true })(req, res, () => {
+                    parsedBody = req.body;
+                    resolve({body: parsedBody, type: 'application/x-www-form-urlencoded'})
+                });
+            } else if (contentType.includes('text/plain')) {
+                bodyParser.text()(req, res, () => {
+                    parsedBody = req.body;
+                    resolve({body: parsedBody, type: 'text/plain'})
+                });
+            } else if (contentType.includes('text/html')) {
+                bodyParser.text({ type: 'text/html' })(req, res, () => {
+                    parsedBody = req.body;
+                    resolve({body: parsedBody, type: 'text/html'})
+                });
+            } else if (contentType.includes('text/javascript')) {
+                bodyParser.text({ type: 'text/javascript' })(req, res, () => {
+                    parsedBody = req.body;
+                    resolve({body: parsedBody, type: 'text/javascript'})
+                });
+            } else if (contentType.includes('text/css')) {
+                bodyParser.text({ type: 'text/css' })(req, res, () => {
+                    parsedBody = req.body;
+                    resolve({body: parsedBody, type: 'text/css'})
+                });
+            } else {
+                reject('Unsupported media')
+            }
+        })
+    };
+
+    async rtguard(req, res, next) {
         const start = process.hrtime();
         this.log([`\n[+] Execution trace ${req.method} ${req.url}:`])
         const initialAuditResult = this.initialAudit(req)
@@ -64,10 +118,8 @@ class rtguard {
             this.logSummary(null, start, true, req)
             return res.status(418).send(`This request was blocked: ${initialAuditResult}`)
         }
-        if(!req.body) {
-            return next()
-        }
         try {
+            const parsedBody = await this.parseBody(req)
             var audits = []
             for(let attacks of payloads) {
                 let attackName = attacks[0]
@@ -81,10 +133,21 @@ class rtguard {
                         audits.push({scope: 'headers', attackName,  pattern})
                         this.log([`\t[***] ${attackName} attack pattern detected in Headers:`, pattern])
                     }
-                    if(this.checkJsonBody(req.body, pattern)) {
-                        audits.push({scope: 'json', attackName,  pattern})
-                        this.log([`\t[***] ${attackName} attack pattern detected in JSON Body:`, pattern])
+                    if(parsedBody.type) {
+                        if(parsedBody.type === 'application/json' && this.checkJsonBody(parsedBody.body, pattern)) {
+                            audits.push({scope: 'json', attackName,  pattern})
+                            this.log([`\t[***] ${attackName} attack pattern detected in JSON Body:`, pattern])
+                        } else if(parsedBody.type === 'multipart/form-data') {
+                            console.log(parsedBody.body.fields)
+                        } else if(parsedBody.type === 'application/x-www-form-urlencoded') {
+
+                        } else if(parsedBody.type.includes('text')) {
+                            this.log(['text'])
+                        } else {
+
+                        }
                     }
+
                     if(audits.length >= this.plevel) {
                         this.logSummary(audits, start, true, req)
                         return this.verbose ? res.status(418).send(`This request was blocked due to ${attackName} suspicion in JSON body for:\n\n${this.auditSummary(audits)}`) :
@@ -96,6 +159,7 @@ class rtguard {
             return next()
         } catch (e) {
             console.log(e)
+            next()
         }
     }
 

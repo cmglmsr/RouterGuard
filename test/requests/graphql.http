@@ -1,0 +1,12 @@
+POST http://localhost:1234/normal
+Content-Type: application/json
+
+{
+    "query": {
+        user(id: \"123\") {
+            id
+            name
+            email
+        }
+    }
+}

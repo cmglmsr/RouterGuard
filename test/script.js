@@ -3,7 +3,7 @@ import {rtguard} from "../index.js";
 
 const rt = new rtguard({
     plevel: 5,
-    allowedBodyTypes: ['application/json'],
+    allowedBodyTypes: ['*'],
     allowedMethods: [ 'PUT', 'GET', 'POST'],
     maxRequestSize: 8192,
     verbose: true
@@ -14,7 +14,6 @@ const app = express()
 app.listen(1234, 'localhost')
 console.log('App is listening...')
 
-app.use(json())
 app.use(rt.rtguard)
 
 app.get('/', (req, res) => {

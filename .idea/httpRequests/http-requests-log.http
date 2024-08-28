@@ -1,169 +1,319 @@
-PUT http://localhost:1234/normal
-Content-Type: asdfasdf
-Content-Length: 840
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 429
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="username"
 
-<> 2024-08-23T172311.418.html
+admin
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------2102512801813682967680946991--
+
+<> 2024-08-28T164619.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 429
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------2102512801813682967680946991--
+
+<> 2024-08-28T164559.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 429
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------2102512801813682967680946991--
+
+<> 2024-08-28T164252.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 429
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------2102512801813682967680946991--
+
+<> 2024-08-28T164141.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 429
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------2102512801813682967680946991--
+
+<> 2024-08-28T164034.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 429
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------2102512801813682967680946991--
+
+<> 2024-08-28T164000.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/html
+Content-Length: 272
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a sample HTML content.</p>
+</body>
+</html>
+
+<> 2024-08-28T163937.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 429
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------2102512801813682967680946991--
+
+<> 2024-08-28T163857.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Length: 244
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="username"
+
+CemGülümser
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
+
+cem@example.com
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+
+<> 2024-08-28T163752.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Length: 244
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="username"
+
+CemGülümser
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
+
+cem@example.com
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+
+<> 2024-08-28T163742.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Length: 405
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="username"
+
+CemGülümser
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
+
+cem@example.com
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.png"
+Content-Type: image/png
+
+(binary data of the file)
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+<> 2024-08-28T163717.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Length: 589
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="username"
+
+CemGülümser
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
+
+cem@example.com
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.png"
+Content-Type: image/png
+
+< C:\Users\cemg\AppData\Local\Temp\http_request_input_file2032.txt
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+<> 2024-08-28T163634.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
+
+<> 2024-08-28T163337.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/html
+Content-Length: 272
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a sample HTML content.</p>
+</body>
+</html>
+
+<> 2024-08-28T163304.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
+
+<> 2024-08-28T163254.404.html
 
 ###
 
 PUT http://localhost:1234/normal
-Content-Type: application/jsontasdasd
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-23T172255.404.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/jsont
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-23T172244.404.html
-
-###
-
-PUT http://localhost:1234/normal
 Content-Type: application/json
 Content-Length: 840
 Connection: Keep-Alive
@@ -214,397 +364,138 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   "licenceName": "Test"
 }
 
-<> 2024-08-23T172238.404.html
+<> 2024-08-28T163241.404.html
 
 ###
 
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Length: 589
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="username"
 
-<> 2024-08-23T170821.404.html
+CemGülümser
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
 
-###
+cem@example.com
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.png"
+Content-Type: image/png
 
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
+< C:\Users\cemg\AppData\Local\Temp\http_request_input_file19165.txt
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
 
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-23T165116.404.html
-
-###
-
-DELETE http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-23T165048.418.html
-
-###
-
-DELETE http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-23T164955.418.html
-
-###
-
-DELETE http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-23T164247.418.html
-
-###
-
-DELETE http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-23T164153.418.html
-
-###
-
-DELETE http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-23T164042.418.html
+<> 2024-08-28T153840.418.html
 
 ###
 
 POST http://localhost:1234/normal
 Content-Type: application/json
+Content-Length: 112
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "query": {
+        user(id: \"123\") {
+            id
+            name
+            email
+        }
+    }
+}
+
+<> 2024-08-28T151557.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/javascript
+Content-Length: 214
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.getElementById('myButton');
+    button.addEventListener('click', function() {
+        alert('Button was clicked!');
+    });
+});
+
+<> 2024-08-28T151546.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/css
+Content-Length: 131
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333333;
+}
+
+p {
+    font-size: 16px;
+}
+
+<> 2024-08-28T151537.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/html
+Content-Length: 272
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a sample HTML content.</p>
+</body>
+</html>
+
+<> 2024-08-28T151513.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
+
+<> 2024-08-28T151503.404.html
+
+###
+
+PUT http://localhost:1234/normal
+Content-Type: application/json
 Content-Length: 840
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
@@ -654,11 +545,11 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   "licenceName": "Test"
 }
 
-<> 2024-08-23T164032.404.html
+<> 2024-08-28T151452.404.html
 
 ###
 
-POST http://localhost:1234/normal
+PUT http://localhost:1234/normal
 Content-Type: application/json
 Content-Length: 840
 Connection: Keep-Alive
@@ -709,13 +600,262 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   "licenceName": "Test"
 }
 
-<> 2024-08-23T143651.404.html
+<> 2024-08-28T150123.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/octet-stream
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+\x50\x4b\x03\x04\x14\x00\x06\x00\x08\x00\x00\x00\x21\x00\x97\x87
+
+<> 2024-08-28T145925.418.html
 
 ###
 
 POST http://localhost:1234/normal
 Content-Type: application/json
-Content-Length: 847
+Content-Length: 112
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "query": {
+        user(id: \"123\") {
+            id
+            name
+            email
+        }
+    }
+}
+
+<> 2024-08-28T145916.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "query": "{
+        user(id: \"123\") {
+            id
+            name
+            email
+        }
+    }"
+}
+
+<> 2024-08-28T145909.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/css
+Content-Length: 131
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333333;
+}
+
+p {
+    font-size: 16px;
+}
+
+<> 2024-08-28T145822.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Length: 131
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333333;
+}
+
+p {
+    font-size: 16px;
+}
+
+<> 2024-08-28T145735.418.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/javascript
+Content-Length: 214
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.getElementById('myButton');
+    button.addEventListener('click', function() {
+        alert('Button was clicked!');
+    });
+});
+
+<> 2024-08-28T145711.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "query": "{
+        user(id: \"123\") {
+            id
+            name
+            email
+        }
+    }"
+}
+
+<> 2024-08-28T145658.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/javascript
+Content-Length: 214
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.getElementById('myButton');
+    button.addEventListener('click', function() {
+        alert('Button was clicked!');
+    });
+});
+
+<> 2024-08-28T144853.418.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/html
+Content-Length: 272
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a sample HTML content.</p>
+</body>
+</html>
+
+<> 2024-08-28T140330.418.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
+
+<> 2024-08-28T140324.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
+
+<> 2024-08-28T135956.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Length: 589
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="username"
+
+CemGülümser
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
+
+cem@example.com
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.png"
+Content-Type: image/png
+
+< C:\Users\cemg\AppData\Local\Temp\http_request_input_file17526.txt
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+<> 2024-08-28T135950.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
+
+<> 2024-08-28T135934.418.html
+
+###
+
+PUT http://localhost:1234/normal
+Content-Type: application/json
+Content-Length: 840
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
@@ -755,7 +895,7 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   "licenceConfiguration": {
     "name": "TestLic",
     "organization": "TR7",
-    "type": "+ADwAIQ-DOCTYPE",
+    "type": "or 1=1--",
     "isPoc": true,
     "ttlUnit": "weeks",
     "ttl": 15
@@ -764,13 +904,65 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   "licenceName": "Test"
 }
 
-<> 2024-08-23T143621.404.html
+<> 2024-08-28T135825.404.html
 
 ###
 
 POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Length: 589
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="username"
+
+CemGülümser
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
+
+cem@example.com
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.png"
+Content-Type: image/png
+
+< C:\Users\cemg\AppData\Local\Temp\http_request_input_file10.txt
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+<> 2024-08-28T135820.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Length: 589
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="username"
+
+CemGülümser
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
+
+cem@example.com
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.png"
+Content-Type: image/png
+
+< C:\Users\cemg\AppData\Local\Temp\http_request_input_file3.txt
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+<> 2024-08-28T135125.404.html
+
+###
+
+PUT http://localhost:1234/normal
 Content-Type: application/json
-Content-Length: 849
+Content-Length: 840
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
@@ -810,7 +1002,7 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   "licenceConfiguration": {
     "name": "TestLic",
     "organization": "TR7",
-    "type": "UNION SELECT 1=1;",
+    "type": "or 1=1--",
     "isPoc": true,
     "ttlUnit": "weeks",
     "ttl": 15
@@ -819,13 +1011,13 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   "licenceName": "Test"
 }
 
-<> 2024-08-23T143605.404.html
+<> 2024-08-28T135051.404.html
 
 ###
 
-POST http://localhost:1234/normal
+PUT http://localhost:1234/normal
 Content-Type: application/json
-Content-Length: 838
+Content-Length: 840
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
@@ -865,7 +1057,7 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   "licenceConfiguration": {
     "name": "TestLic",
     "organization": "TR7",
-    "type": "online",
+    "type": "or 1=1--",
     "isPoc": true,
     "ttlUnit": "weeks",
     "ttl": 15
@@ -874,3937 +1066,302 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   "licenceName": "Test"
 }
 
-<> 2024-08-23T143545.404.html
+<> 2024-08-28T135000.404.html
 
 ###
 
 POST http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 2
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Length: 589
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="username"
 
-<> 2024-08-23T142914.404.html
+CemGülümser
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
+
+cem@example.com
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.png"
+Content-Type: image/png
+
+< C:\Users\cemg\AppData\Local\Temp\http_request_input_file5.txt
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+<> 2024-08-28T134929.404.html
 
 ###
 
-POST http://localhost:1234/what/is/this?shizz=https://google.com
-Content-Type: application/json
-Content-Length: 2
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Length: 589
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="username"
 
-<> 2024-08-23T142852.404.html
+CemGülümser
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
+
+cem@example.com
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.png"
+Content-Type: image/png
+
+< C:\Users\cemg\AppData\Local\Temp\http_request_input_file7.txt
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+<> 2024-08-28T134857.404.html
 
 ###
 
-POST http://localhost:1234/what/is/this?shizz=https://google.com
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Length: 589
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="username"
+
+CemGülümser
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
+
+cem@example.com
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.png"
+Content-Type: image/png
+
+< C:\Users\cemg\AppData\Local\Temp\http_request_input_file4.txt
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+<> 2024-08-28T134801.404.html
+
+###
+
+PUT http://localhost:1234/normal
 Content-Type: application/json
-Content-Length: 2539
+Content-Length: 840
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
+  "manualLicenceComponents": [
+    {
+      "type": "Product",
+      "props": {
+        "code": "TR7-HS-715-SEC"
       }
     },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
     {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
+      "type": "Additions",
+      "props": {
+        "addition_type": "Network Module",
+        "code": "TR-NM-7000-S14436",
+        "quantity": 1
+      }
     },
     {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
+      "type": "Additions",
+      "props": {
+        "addition_type": "Transceiver Module",
+        "code": "TR-SFP-LX-MS1310",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Maintenance",
+      "props": {
+        "code": "TR7-HS-715-SEC-Dedicated-3M",
+        "start_date": "2024-08-23"
+      }
     }
   ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
+  "licenceConfiguration": {
+    "name": "TestLic",
+    "organization": "TR7",
+    "type": "or 1=1--",
+    "isPoc": true,
+    "ttlUnit": "weeks",
+    "ttl": 15
+  },
+  "licenceOrganization": "TR7",
+  "licenceName": "Test"
 }
 
-<> 2024-08-23T142751.418.html
+<> 2024-08-28T134648.404.html
 
 ###
 
-POST http://localhost:1234/what/is/this?shizz=https://google.com
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Length: 589
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="username"
+
+CemGülümser
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
+
+cem@example.com
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.png"
+Content-Type: image/png
+
+< C:\Users\cemg\AppData\Local\Temp\http_request_input_file6418.txt
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+<> 2024-08-28T134643.404.html
+
+###
+
+PUT http://localhost:1234/normal
 Content-Type: application/json
-Content-Length: 2539
+Content-Length: 840
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
+  "manualLicenceComponents": [
+    {
+      "type": "Product",
+      "props": {
+        "code": "TR7-HS-715-SEC"
       }
     },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
     {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
+      "type": "Additions",
+      "props": {
+        "addition_type": "Network Module",
+        "code": "TR-NM-7000-S14436",
+        "quantity": 1
+      }
     },
     {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
+      "type": "Additions",
+      "props": {
+        "addition_type": "Transceiver Module",
+        "code": "TR-SFP-LX-MS1310",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Maintenance",
+      "props": {
+        "code": "TR7-HS-715-SEC-Dedicated-3M",
+        "start_date": "2024-08-23"
+      }
     }
   ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
+  "licenceConfiguration": {
+    "name": "TestLic",
+    "organization": "TR7",
+    "type": "or 1=1--",
+    "isPoc": true,
+    "ttlUnit": "weeks",
+    "ttl": 15
+  },
+  "licenceOrganization": "TR7",
+  "licenceName": "Test"
 }
 
-<> 2024-08-23T142547.404.html
+<> 2024-08-28T134525.500.html
 
 ###
 
-POST http://localhost:1234/what/is/this?shizz=http://google.com
+PUT http://localhost:1234/normal
 Content-Type: application/json
-Content-Length: 2539
+Content-Length: 840
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
+  "manualLicenceComponents": [
+    {
+      "type": "Product",
+      "props": {
+        "code": "TR7-HS-715-SEC"
       }
     },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
     {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
+      "type": "Additions",
+      "props": {
+        "addition_type": "Network Module",
+        "code": "TR-NM-7000-S14436",
+        "quantity": 1
+      }
     },
     {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
+      "type": "Additions",
+      "props": {
+        "addition_type": "Transceiver Module",
+        "code": "TR-SFP-LX-MS1310",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Maintenance",
+      "props": {
+        "code": "TR7-HS-715-SEC-Dedicated-3M",
+        "start_date": "2024-08-23"
+      }
     }
   ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
+  "licenceConfiguration": {
+    "name": "TestLic",
+    "organization": "TR7",
+    "type": "or 1=1--",
+    "isPoc": true,
+    "ttlUnit": "weeks",
+    "ttl": 15
+  },
+  "licenceOrganization": "TR7",
+  "licenceName": "Test"
 }
 
-<> 2024-08-23T142519.404.html
+<> 2024-08-28T134330.404.html
 
 ###
 
-POST http://localhost:1234/what/is/this?shizz=http://google.com
-Content-Type: application/json
-Content-Length: 2539
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Length: 589
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="username"
 
-<> 2024-08-23T142511.404.html
+CemGülümser
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
 
-###
+cem@example.com
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.png"
+Content-Type: image/png
 
-POST http://localhost:1234/what/is/this?shizz=http://google.com
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
+< C:\Users\cemg\AppData\Local\Temp\http_request_input_file6.txt
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
 
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T142453.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=http://google.com
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T142058.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=http://google.com
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T142013.418.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=http://google.com
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T100825.418.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=http://google.com
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T100800.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=http://google.com
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T100548.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=http://google.com
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T100404.418.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=http://google.com
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T100218.418.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=http://google.com
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T094619.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=/http:/example.com
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T094552.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=/http:/example.com
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T094415.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=https://google.com
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T094357.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=https://google.com
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T094339.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=http://google.com
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T094319.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=3
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T094121.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=3
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-23T094021.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=3
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-22T172941.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=3
-Content-Type: application/json
-Content-Length: 2539
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "cat /etc/passwd",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "{{4+4}}",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-22T172845.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=3
-Content-Type: application/json
-Content-Length: 2525
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "male",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "@cem",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-22T172816.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=3
-Content-Type: application/json
-Content-Length: 2525
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "male",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "@cem",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-22T172506.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=3
-Content-Type: application/json
-Content-Length: 2525
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "male",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "@cem",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-22T172218.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=3
-Content-Type: application/json
-Content-Length: 2525
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "male",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "@cem",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-22T172046.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=3
-Content-Type: application/json
-Content-Length: 2525
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "male",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "@cem",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-22T171954.418.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=3
-Content-Type: application/json
-Content-Length: 2525
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "male",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "@cem",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-22T171852.418.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=3
-Content-Type: application/json
-Content-Length: 2525
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "male",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "@cem",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-22T171643.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=3
-Content-Type: application/json
-Content-Length: 2525
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "male",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "@cem",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-22T171415.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=3
-Content-Type: application/json
-Content-Length: 2502
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image",
-    "profile": {
-      "age": 30,
-      "gender": "male",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "@cem",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-22T171231.404.html
-
-###
-
-POST http://localhost:1234/what/is/this?shizz=3
-Content-Type: application/json
-Content-Length: 2525
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "user": {
-    "id": 12345,
-    "name": "or true--",
-    "email": "<image src/onerror=prompt(8)>",
-    "profile": {
-      "age": 30,
-      "gender": "male",
-      "preferences": {
-        "newsletter": true,
-        "notifications": {
-          "email": true,
-          "sms": false,
-          "push": true
-        }
-      },
-      "social": {
-        "twitter": "@cem",
-        "linkedin": "linkedin.com/in/cem",
-        "github": "github.com/cem"
-      }
-    },
-    "friends": [
-      {
-        "id": 54321,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "status": "active"
-      },
-      {
-        "id": 67890,
-        "name": "John Smith",
-        "email": "john@example.com",
-        "status": "inactive"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "orderId": "ORD123456",
-      "date": "2023-08-21",
-      "items": [
-        {
-          "productId": "P12345",
-          "productName": "Smartphone",
-          "quantity": 1,
-          "price": 699.99,
-          "details": {
-            "color": "black",
-            "warranty": "2 years",
-            "accessories": ["charger", "earphones"]
-          }
-        },
-        {
-          "productId": "P54321",
-          "productName": "Laptop",
-          "quantity": 1,
-          "price": 1299.99,
-          "details": {
-            "color": "silver",
-            "warranty": "1 year",
-            "accessories": ["charger", "bag"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "Credit Card",
-      "orderStatus": "Shipped"
-    },
-    {
-      "orderId": "ORD789012",
-      "date": "2023-08-15",
-      "items": [
-        {
-          "productId": "P67890",
-          "productName": "Tablet",
-          "quantity": 2,
-          "price": 299.99,
-          "details": {
-            "color": "white",
-            "warranty": "1 year",
-            "accessories": ["charger"]
-          }
-        }
-      ],
-      "shippingAddress": {
-        "street": "456 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "Delivered"
-    }
-  ],
-  "subscription": {
-    "plan": "Premium",
-    "startDate": "2023-01-01",
-    "endDate": "2024-01-01",
-    "autoRenew": true,
-    "features": ["Unlimited access", "Priority support", "Ad-free experience"]
-  }
-}
-
-<> 2024-08-22T171209.404.html
+<> 2024-08-28T123456.404.html
 
 ###
 

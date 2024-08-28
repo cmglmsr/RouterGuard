@@ -1,0 +1,9 @@
+POST http://localhost:1234/normal
+Content-Type: text/javascript
+
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.getElementById('myButton');
+    button.addEventListener('click', function() {
+        alert('Button was clicked!');
+    });
+});

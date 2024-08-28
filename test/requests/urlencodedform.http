@@ -1,0 +1,4 @@
+POST http://localhost:1234/normal
+Content-Type: application/x-www-form-urlencoded
+
+username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123

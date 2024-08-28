@@ -1,0 +1,13 @@
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------2102512801813682967680946991--
+
