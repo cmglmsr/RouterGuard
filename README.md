@@ -16,10 +16,39 @@ The **RT Guard** middleware is a security middleware for Express.js applications
 ## Customization Features
 
 - **Configurable paranoia level (`plevel`)**: Defines how many attack patterns need to be detected before blocking a request.
-- **Allowed HTTP Methods (`allowedBodyTypes`)**: Restricts requests to a specified set of HTTP methods.
-- **Allowed Body Types (`allowedMethods`)**: Restricts requests to a specified set of content types.
+  - `1-10`: 1 being the most paranoid, 10 being the least strict protection level. 
+- **Allowed HTTP Methods (`allowedMethods`)**: Restricts requests to a specified array of HTTP methods.
+    - `GET`: Allows GET methods.
+    - `POST`: Allows POST methods.
+    - `PUT`: Allows PUT methods.
+    - `DELETE`: Allows DELETE methods.
+    - `PATCH`: Allows PATCH methods.
+    - `HEAD`: Allows HEAD methods.
+    - `*`: Allows ALL methods.
+- **Allowed Body Types (`allowedBodyTypes`)**: Restricts requests to a specified set of content types.
+    - `application/json`: Allows JSON payloads.
+    - `application/x-www-form-urlencoded`: Allows URL Encoded Form payloads.
+    - `multipart/form-data`: Allows Multipart Form payloads.
+    - `text/javascript`: Allows Javascript payloads.
+    - `text/html`: Allows HTML payloads.
+    - `text/css`: Allows CSS payloads.
+    - `*`: Allows ALL content types.
 - **Maximum Request Size (`maxRequestSize`)**: Limits the size of incoming requests.
+    - Specify the maximum request size in bytes (e.g., `1048576` for 1MB).
 - **Verbose Logging (`verbose`)**: Optionally logs detailed information about the request and audit process.
+    - `true`: Enable verbose logging.
+    - `false`: Disable verbose logging.
+
+## Example Configuration
+```javascript
+const guardConfig = {
+    plevel: 3, // Paranoia level
+    allowedBodyTypes: ['application/json', 'application/x-www-form-urlencoded'],
+    allowedMethods: ['GET', 'POST', 'PUT'],
+    maxRequestSize: 8192, // Increased request size limit
+    verbose: false // No logging
+};
+```
 
 ## Installation
 
@@ -32,11 +61,13 @@ npm install rtguard
 ## How It Works
 1. Initial Audit: The middleware performs an initial audit of the request to ensure it meets the allowed method, content type, and size criteria. If the request fails this audit, it is blocked immediately.
 
-2. JSON Body Audit: If the request body is JSON, it is parsed, and each key and value is tested against predefined attack patterns. The patterns are imported from a separate payloads module.
+2. Body Parsing: Different body types are parsed to auditable format. See Customization Features part for auditable content types.
 
-3. Blocking Requests: If the number of detected attack patterns exceeds the configured plevel, the request is blocked, and a 418 status code is returned along with a message indicating the reason for blocking.
+3. Body Audit: Each key and value in the body is tested against predefined attack patterns. The patterns are imported from a separate payloads module. 
 
-4. Logging: If verbose mode is enabled, the middleware logs details of the request, including detected attack patterns and the time taken to process the audit.
+4. Blocking Requests: If the number of detected attack patterns exceeds the configured plevel, the request is blocked, and a 418 status code is returned along with a message indicating the reason for blocking.
+
+5. Logging: If verbose mode is enabled, the middleware logs details of the request, including detected attack patterns and the time taken to process the audit.
 
 ## Usage
 You may use RTGuard in your Express application as follows.
@@ -58,7 +89,6 @@ const guardConfig = {
 const guard = new rtguard(guardConfig);
 
 // Apply RT Guard middleware
-app.use(express.json()); // Required to parse JSON bodies
 app.use(guard.rtguard);
 
 // Define your routes
@@ -70,17 +100,6 @@ app.post('/secure-endpoint', (req, res) => {
 app.listen(3000, () => {
     console.log('Server is running on port 3000');
 });
-```
-
-## Example Configuration
-```javascript
-const guardConfig = {
-    plevel: 3, // Lower paranoia level
-    allowedBodyTypes: ['application/json', 'application/x-www-form-urlencoded'],
-    allowedMethods: ['GET', 'POST', 'PUT'],
-    maxRequestSize: 8192, // Increased request size limit
-    verbose: false // No logging
-};
 ```
 
 ## Credits

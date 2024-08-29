@@ -2,7 +2,7 @@ import express, {json} from "express";
 import {rtguard} from "../index.js";
 
 const rt = new rtguard({
-    plevel: 5,
+    plevel: 3,
     allowedBodyTypes: ['*'],
     allowedMethods: [ 'PUT', 'GET', 'POST'],
     maxRequestSize: 8192,

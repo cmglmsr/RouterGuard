@@ -1,5 +1,5 @@
 import {payloads} from "./data/index.js";
-import {traverse} from "./utils/bodyUtils.js";
+import {traverse, traverseForm} from "./utils/bodyUtils.js";
 import multer from "multer";
 import bodyParser from "body-parser";
 
@@ -23,7 +23,7 @@ class rtguard {
     }
 
     initialAudit(req) {
-        if(this.allowedMethods?.length && !this.allowedMethods.includes(req.method)) {
+        if(this.allowedMethods?.length && !this.allowedMethods?.includes('*') && !this.allowedMethods.includes(req.method)) {
             return 'Request method not allowed.'
         }
         if(this.allowedBodyTypes?.length && !this.allowedBodyTypes.includes('*') && req.headers['content-type']) {
@@ -52,12 +52,11 @@ class rtguard {
     }
 
     checkJsonBody(body, regex) {
-        try {
-            JSON.parse(JSON.stringify(body))
-        } catch (e) {
-            return 'Invalid JSON.'
-        }
         return traverse(body, regex);
+    }
+
+    checkMultipartFormBody(body, regex) {
+        return traverseForm(body, regex)
     }
 
     parseBody(req, res) {
@@ -137,12 +136,15 @@ class rtguard {
                         if(parsedBody.type === 'application/json' && this.checkJsonBody(parsedBody.body, pattern)) {
                             audits.push({scope: 'json', attackName,  pattern})
                             this.log([`\t[***] ${attackName} attack pattern detected in JSON Body:`, pattern])
-                        } else if(parsedBody.type === 'multipart/form-data') {
-                            console.log(parsedBody.body.fields)
-                        } else if(parsedBody.type === 'application/x-www-form-urlencoded') {
-
-                        } else if(parsedBody.type.includes('text')) {
-                            this.log(['text'])
+                        } else if(parsedBody.type === 'multipart/form-data' && this.checkMultipartFormBody(parsedBody.body.fields, pattern)) {
+                            audits.push({scope: 'multipart form', attackName,  pattern})
+                            this.log([`\t[***] ${attackName} attack pattern detected in Multipart Form Body:`, pattern])
+                        } else if(parsedBody.type === 'application/x-www-form-urlencoded' && this.checkJsonBody(parsedBody.body, pattern)) {
+                            audits.push({scope: 'url encoded form', attackName,  pattern})
+                            this.log([`\t[***] ${attackName} attack pattern detected in URL Encoded Form Body:`, pattern])
+                        } else if(parsedBody.type.includes('text') && pattern.test(parsedBody.body)) {
+                            audits.push({scope: 'text', attackName,  pattern})
+                            this.log([`\t[***] ${attackName} attack pattern detected in Text Body:`, pattern])
                         } else {
 
                         }
@@ -150,7 +152,7 @@ class rtguard {
 
                     if(audits.length >= this.plevel) {
                         this.logSummary(audits, start, true, req)
-                        return this.verbose ? res.status(418).send(`This request was blocked due to ${attackName} suspicion in JSON body for:\n\n${this.auditSummary(audits)}`) :
+                        return this.verbose ? res.status(418).send(`This request was blocked due to ${attackName} suspicion:\n\n${this.auditSummary(audits)}`) :
                             res.status(418).send('This request was blocked.')
                     }
                 }

@@ -1,4 +1,740 @@
 POST http://localhost:1234/normal
+Content-Type: text/css
+Content-Length: 152
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial,  AS INJECTX WHERE 1=1 AND 1=0--;
+}
+
+h1 {
+    color: #333333;
+}
+
+p {
+    font-size: 16px;
+}
+
+<> 2024-08-29T103937.418.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/css
+Content-Length: 131
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333333;
+}
+
+p {
+    font-size: 16px;
+}
+
+<> 2024-08-29T103928.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/javascript
+Content-Length: 238
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.getElementById('myButton');
+    button.addEventListener('click', function() {
+        alert(' AS INJECTX WHERE 1=1 AND 1=0--was clicked!');
+    });
+});
+
+<> 2024-08-29T103909.418.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/javascript
+Content-Length: 214
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.getElementById('myButton');
+    button.addEventListener('click', function() {
+        alert('Button was clicked!');
+    });
+});
+
+<> 2024-08-29T103849.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/html
+Content-Length: 272
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a sample HTML content.</p>
+</body>
+</html>
+
+<> 2024-08-29T103826.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/html
+Content-Length: 305
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AS INJECTX WHERE 1=1 AND 1=0--
+        HTML</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a sample HTML content.</p>
+</body>
+</html>
+
+<> 2024-08-29T103756.418.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/html
+Content-Length: 272
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a sample HTML content.</p>
+</body>
+</html>
+
+<> 2024-08-29T103742.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/html
+Content-Length: 272
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a sample HTML content.</p>
+</body>
+</html>
+
+<> 2024-08-29T103643.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 360
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+user[name]=Cem+G%C3%BCl%C3%BCms%C3%A9r&
+user[email]=cem.gul%C3%BCmser%40example.com&
+user[preferences][notifications]=true&
+user[preferences][newsletter]=false&
+user[addresses][0][type]=home&
+user[addresses][0][address]=123+Main+St%2C+ AS INJECTX WHERE 1=1 AND 1=0--&
+user[addresses][1][type]= ORDER BY&
+user[addresses][1][address]=456+Corporate+Blvd%2C+Ankara
+
+<> 2024-08-29T103006.418.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 332
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+user[name]=Cem+G%C3%BCl%C3%BCms%C3%A9r&
+user[email]=cem.gul%C3%BCmser%40example.com&
+user[preferences][notifications]=true&
+user[preferences][newsletter]=false&
+user[addresses][0][type]=home&
+user[addresses][0][address]=123+Main+St%2C+Istanbul&
+user[addresses][1][type]=work&
+user[addresses][1][address]=456+Corporate+Blvd%2C+Ankara
+
+<> 2024-08-29T102950.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 410
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+user[name]=Cem+G%C3%BCl%C3%BCms%C3%A9r&
+user[email]=cem.gul%C3%BCmser%40example.com&
+user[preferences][notifications]=true&
+user[preferences][newsletter]=false&
+user[addresses][0][type]=home&
+user[addresses][0][address]=123+Main+St%2C+Istanbul&
+user[addresses][1][type]=work&
+user[addresses][1][address]=456+Corporate+Blvd%2C+ RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='
+
+<> 2024-08-29T102735.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 352
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+user[name]=Cem+G%C3%BCl%C3%BCms%C3%A9r&
+user[email]=cem.gul%C3%BCmser%40example.com&
+user[preferences][notifications]=true&
+user[preferences][newsletter]=false&
+user[addresses][0][type]=home&
+user[addresses][0][address]=123+Main+St%2C+AND 7506=9091 AND (5913=5913&
+user[addresses][1][type]=work&
+user[addresses][1][address]=456+Corporate+Blvd%2C+Ankara
+
+<> 2024-08-29T102717.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 332
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+user[name]=Cem+G%C3%BCl%C3%BCms%C3%A9r&
+user[email]=cem.gul%C3%BCmser%40example.com&
+user[preferences][notifications]=true&
+user[preferences][newsletter]=false&
+user[addresses][0][type]=home&
+user[addresses][0][address]=123+Main+St%2C+Istanbul&
+user[addresses][1][type]=work&
+user[addresses][1][address]=456+Corporate+Blvd%2C+Ankara
+
+<> 2024-08-29T102701.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 332
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+user[name]=Cem+G%C3%BCl%C3%BCms%C3%A9r&
+user[email]=cem.gul%C3%BCmser%40example.com&
+user[preferences][notifications]=true&
+user[preferences][newsletter]=false&
+user[addresses][0][type]=home&
+user[addresses][0][address]=123+Main+St%2C+Istanbul&
+user[addresses][1][type]=work&
+user[addresses][1][address]=456+Corporate+Blvd%2C+Ankara
+
+<> 2024-08-29T102559.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
+
+<> 2024-08-29T102459.404.html
+
+###
+
+PUT http://localhost:1234/normal
+Content-Type: application/json
+Content-Length: 840
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "manualLicenceComponents": [
+    {
+      "type": "Product",
+      "props": {
+        "code": "TR7-HS-715-SEC"
+      }
+    },
+    {
+      "type": "Additions",
+      "props": {
+        "addition_type": "Network Module",
+        "code": "TR-NM-7000-S14436",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Additions",
+      "props": {
+        "addition_type": "Transceiver Module",
+        "code": "TR-SFP-LX-MS1310",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Maintenance",
+      "props": {
+        "code": "TR7-HS-715-SEC-Dedicated-3M",
+        "start_date": "2024-08-23"
+      }
+    }
+  ],
+  "licenceConfiguration": {
+    "name": "TestLic",
+    "organization": "TR7",
+    "type": "or 1=1--",
+    "isPoc": true,
+    "ttlUnit": "weeks",
+    "ttl": 15
+  },
+  "licenceOrganization": "TR7",
+  "licenceName": "Test"
+}
+
+<> 2024-08-29T102233.404.html
+
+###
+
+PUT http://localhost:1234/normal
+Content-Type: application/json
+Content-Length: 838
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "manualLicenceComponents": [
+    {
+      "type": "Product",
+      "props": {
+        "code": "TR7-HS-715-SEC"
+      }
+    },
+    {
+      "type": "Additions",
+      "props": {
+        "addition_type": "Network Module",
+        "code": "TR-NM-7000-S14436",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Additions",
+      "props": {
+        "addition_type": "Transceiver Module",
+        "code": "TR-SFP-LX-MS1310",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Maintenance",
+      "props": {
+        "code": "TR7-HS-715-SEC-Dedicated-3M",
+        "start_date": "2024-08-23"
+      }
+    }
+  ],
+  "licenceConfiguration": {
+    "name": "TestLic",
+    "organization": "TR7",
+    "type": "or 1=1--",
+    "isPoc": true,
+    "ttlUnit": "weeks",
+    "ttl": 15
+  },
+  "licenceOrganization": "TR7",
+  "licenceName": "Test"
+
+<> 2024-08-29T102221.404.html
+
+###
+
+PUT http://localhost:1234/normal
+Content-Type: application/json
+Content-Length: 840
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "manualLicenceComponents": [
+    {
+      "type": "Product",
+      "props": {
+        "code": "TR7-HS-715-SEC"
+      }
+    },
+    {
+      "type": "Additions",
+      "props": {
+        "addition_type": "Network Module",
+        "code": "TR-NM-7000-S14436",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Additions",
+      "props": {
+        "addition_type": "Transceiver Module",
+        "code": "TR-SFP-LX-MS1310",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Maintenance",
+      "props": {
+        "code": "TR7-HS-715-SEC-Dedicated-3M",
+        "start_date": "2024-08-23"
+      }
+    }
+  ],
+  "licenceConfiguration": {
+    "name": "TestLic",
+    "organization": "TR7",
+    "type": "or 1=1--",
+    "isPoc": true,
+    "ttlUnit": "weeks",
+    "ttl": 15
+  },
+  "licenceOrganization": "TR7",
+  "licenceName": "Test"
+}
+
+<> 2024-08-29T102210.404.html
+
+###
+
+PUT http://localhost:1234/normal
+Content-Type: application/json
+Content-Length: 840
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "manualLicenceComponents": [
+    {
+      "type": "Product",
+      "props": {
+        "code": "TR7-HS-715-SEC"
+      }
+    },
+    {
+      "type": "Additions",
+      "props": {
+        "addition_type": "Network Module",
+        "code": "TR-NM-7000-S14436",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Additions",
+      "props": {
+        "addition_type": "Transceiver Module",
+        "code": "TR-SFP-LX-MS1310",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Maintenance",
+      "props": {
+        "code": "TR7-HS-715-SEC-Dedicated-3M",
+        "start_date": "2024-08-23"
+      }
+    }
+  ],
+  "licenceConfiguration": {
+    "name": "TestLic",
+    "organization": "TR7",
+    "type": "or 1=1--",
+    "isPoc": true,
+    "ttlUnit": "weeks",
+    "ttl": 15
+  },
+  "licenceOrganization": "TR7",
+  "licenceName": "Test"
+}
+
+<> 2024-08-29T102205.404.html
+
+###
+
+PUT http://localhost:1234/normal
+Content-Type: application/json
+Content-Length: 840
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "manualLicenceComponents": [
+    {
+      "type": "Product",
+      "props": {
+        "code": "TR7-HS-715-SEC"
+      }
+    },
+    {
+      "type": "Additions",
+      "props": {
+        "addition_type": "Network Module",
+        "code": "TR-NM-7000-S14436",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Additions",
+      "props": {
+        "addition_type": "Transceiver Module",
+        "code": "TR-SFP-LX-MS1310",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Maintenance",
+      "props": {
+        "code": "TR7-HS-715-SEC-Dedicated-3M",
+        "start_date": "2024-08-23"
+      }
+    }
+  ],
+  "licenceConfiguration": {
+    "name": "TestLic",
+    "organization": "TR7",
+    "type": "or 1=1--",
+    "isPoc": true,
+    "ttlUnit": "weeks",
+    "ttl": 15
+  },
+  "licenceOrganization": "TR7",
+  "licenceName": "Test"
+}
+
+<> 2024-08-29T102132.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 259
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+Cem Gülümsér
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T102111.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 439
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="username"
+
+/etc/shadow
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="') or true--"
+
+admin
+-----------------------------2102512801813682967680946991--
+
+<> 2024-08-29T102002.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 435
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="username"
+
+/etc/shadow
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------2102512801813682967680946991--
+
+<> 2024-08-29T101946.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 429
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------2102512801813682967680946991--
+
+<> 2024-08-29T101929.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 429
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------2102512801813682967680946991--
+
+<> 2024-08-29T101115.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 429
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------2102512801813682967680946991--
+
+<> 2024-08-29T100938.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 429
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------2102512801813682967680946991
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------2102512801813682967680946991--
+
+<> 2024-08-29T100846.404.html
+
+###
+
+POST http://localhost:1234/normal
 Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
 Content-Length: 429
 Connection: Keep-Alive
@@ -546,822 +1282,6 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 }
 
 <> 2024-08-28T151452.404.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-28T150123.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/octet-stream
-Content-Length: 64
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-\x50\x4b\x03\x04\x14\x00\x06\x00\x08\x00\x00\x00\x21\x00\x97\x87
-
-<> 2024-08-28T145925.418.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 112
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-    "query": {
-        user(id: \"123\") {
-            id
-            name
-            email
-        }
-    }
-}
-
-<> 2024-08-28T145916.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 114
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-    "query": "{
-        user(id: \"123\") {
-            id
-            name
-            email
-        }
-    }"
-}
-
-<> 2024-08-28T145909.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: text/css
-Content-Length: 131
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-}
-
-h1 {
-    color: #333333;
-}
-
-p {
-    font-size: 16px;
-}
-
-<> 2024-08-28T145822.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Length: 131
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-}
-
-h1 {
-    color: #333333;
-}
-
-p {
-    font-size: 16px;
-}
-
-<> 2024-08-28T145735.418.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: text/javascript
-Content-Length: 214
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-document.addEventListener('DOMContentLoaded', function() {
-    const button = document.getElementById('myButton');
-    button.addEventListener('click', function() {
-        alert('Button was clicked!');
-    });
-});
-
-<> 2024-08-28T145711.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 114
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-    "query": "{
-        user(id: \"123\") {
-            id
-            name
-            email
-        }
-    }"
-}
-
-<> 2024-08-28T145658.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: text/javascript
-Content-Length: 214
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-document.addEventListener('DOMContentLoaded', function() {
-    const button = document.getElementById('myButton');
-    button.addEventListener('click', function() {
-        alert('Button was clicked!');
-    });
-});
-
-<> 2024-08-28T144853.418.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: text/html
-Content-Length: 272
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>This is a sample HTML content.</p>
-</body>
-</html>
-
-<> 2024-08-28T140330.418.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 73
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
-
-<> 2024-08-28T140324.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 73
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
-
-<> 2024-08-28T135956.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Length: 589
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="username"
-
-CemGülümser
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="email"
-
-cem@example.com
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="file"; filename="example.png"
-Content-Type: image/png
-
-< C:\Users\cemg\AppData\Local\Temp\http_request_input_file17526.txt
-------WebKitFormBoundary7MA4YWxkTrZu0gW--
-
-<> 2024-08-28T135950.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 73
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
-
-<> 2024-08-28T135934.418.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-28T135825.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Length: 589
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="username"
-
-CemGülümser
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="email"
-
-cem@example.com
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="file"; filename="example.png"
-Content-Type: image/png
-
-< C:\Users\cemg\AppData\Local\Temp\http_request_input_file10.txt
-------WebKitFormBoundary7MA4YWxkTrZu0gW--
-
-<> 2024-08-28T135820.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Length: 589
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="username"
-
-CemGülümser
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="email"
-
-cem@example.com
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="file"; filename="example.png"
-Content-Type: image/png
-
-< C:\Users\cemg\AppData\Local\Temp\http_request_input_file3.txt
-------WebKitFormBoundary7MA4YWxkTrZu0gW--
-
-<> 2024-08-28T135125.404.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-28T135051.404.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-28T135000.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Length: 589
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="username"
-
-CemGülümser
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="email"
-
-cem@example.com
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="file"; filename="example.png"
-Content-Type: image/png
-
-< C:\Users\cemg\AppData\Local\Temp\http_request_input_file5.txt
-------WebKitFormBoundary7MA4YWxkTrZu0gW--
-
-<> 2024-08-28T134929.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Length: 589
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="username"
-
-CemGülümser
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="email"
-
-cem@example.com
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="file"; filename="example.png"
-Content-Type: image/png
-
-< C:\Users\cemg\AppData\Local\Temp\http_request_input_file7.txt
-------WebKitFormBoundary7MA4YWxkTrZu0gW--
-
-<> 2024-08-28T134857.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Length: 589
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="username"
-
-CemGülümser
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="email"
-
-cem@example.com
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="file"; filename="example.png"
-Content-Type: image/png
-
-< C:\Users\cemg\AppData\Local\Temp\http_request_input_file4.txt
-------WebKitFormBoundary7MA4YWxkTrZu0gW--
-
-<> 2024-08-28T134801.404.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-28T134648.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Length: 589
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="username"
-
-CemGülümser
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="email"
-
-cem@example.com
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="file"; filename="example.png"
-Content-Type: image/png
-
-< C:\Users\cemg\AppData\Local\Temp\http_request_input_file6418.txt
-------WebKitFormBoundary7MA4YWxkTrZu0gW--
-
-<> 2024-08-28T134643.404.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-28T134525.500.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-28T134330.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Length: 589
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="username"
-
-CemGülümser
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="email"
-
-cem@example.com
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="file"; filename="example.png"
-Content-Type: image/png
-
-< C:\Users\cemg\AppData\Local\Temp\http_request_input_file6.txt
-------WebKitFormBoundary7MA4YWxkTrZu0gW--
-
-<> 2024-08-28T123456.404.html
 
 ###
 

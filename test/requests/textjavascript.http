@@ -4,6 +4,6 @@ Content-Type: text/javascript
 document.addEventListener('DOMContentLoaded', function() {
     const button = document.getElementById('myButton');
     button.addEventListener('click', function() {
-        alert('Button was clicked!');
+        alert(' AS INJECTX WHERE 1=1 AND 1=0--was clicked!');
     });
 });

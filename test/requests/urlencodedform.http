@@ -1,4 +1,11 @@
 POST http://localhost:1234/normal
 Content-Type: application/x-www-form-urlencoded
 
-username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
+user[name]=Cem+G%C3%BCl%C3%BCms%C3%A9r&
+user[email]=cem.gul%C3%BCmser%40example.com&
+user[preferences][notifications]=true&
+user[preferences][newsletter]=false&
+user[addresses][0][type]=home&
+user[addresses][0][address]=123+Main+St%2C+ AS INJECTX WHERE 1=1 AND 1=0--&
+user[addresses][1][type]= ORDER BY&
+user[addresses][1][address]=456+Corporate+Blvd%2C+Ankara
