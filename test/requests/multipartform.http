@@ -1,15 +1,14 @@
 POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
 
---boundary123
+-----------------------------77127925828054766374111349759
 Content-Disposition: form-data; name="username"
 
-Cem Gülümsér
---boundary123
-Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
-Content-Type: text/plain
+ AS INJECTX WHERE 1=1 AND 1=1--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
 
-This is a small example file content.') or true--
---boundary123--
+admin
+-----------------------------77127925828054766374111349759--
 
 

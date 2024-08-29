@@ -3,8 +3,6 @@ import {traverse, traverseForm} from "./utils/bodyUtils.js";
 import multer from "multer";
 import bodyParser from "body-parser";
 
-const upload = multer();
-
 class rtguard {
 
     constructor(config) {
@@ -13,6 +11,7 @@ class rtguard {
         this.allowedMethods = config?.allowedMethods || ['GET', 'POST']
         this.maxRequestSize = config?.maxRequestSize || 4096
         this.verbose = !!config?.verbose
+        this.multer = config?.multer || multer().any();
         this.action = config?.action || 'block' // Action to take when a malicious request is detected
 
         if(this.plevel > 10 || this.plevel < 1) {
@@ -74,9 +73,12 @@ class rtguard {
                     resolve({body: parsedBody, type: 'application/json'})
                 });
             } else if (contentType.includes('multipart/form-data')) {
-                upload.any()(req, res, () => {
-                    parsedBody = { files: req.files, fields: req.body };
-                    resolve({body: parsedBody, type: 'multipart/form-data'})
+                this.multer(req, res, (err) => {
+                    if(err) reject(err)
+                    else {
+                        parsedBody = { files: req.files, fields: req.body };
+                        resolve({body: req.body, type: 'multipart/form-data'})
+                    }
                 });
             } else if (contentType.includes('application/x-www-form-urlencoded')) {
                 bodyParser.urlencoded({ extended: true })(req, res, () => {
@@ -132,11 +134,11 @@ class rtguard {
                         audits.push({scope: 'headers', attackName,  pattern})
                         this.log([`\t[***] ${attackName} attack pattern detected in Headers:`, pattern])
                     }
-                    if(parsedBody.type) {
+                    if(parsedBody && parsedBody.type) {
                         if(parsedBody.type === 'application/json' && this.checkJsonBody(parsedBody.body, pattern)) {
                             audits.push({scope: 'json', attackName,  pattern})
                             this.log([`\t[***] ${attackName} attack pattern detected in JSON Body:`, pattern])
-                        } else if(parsedBody.type === 'multipart/form-data' && this.checkMultipartFormBody(parsedBody.body.fields, pattern)) {
+                        } else if(parsedBody.type === 'multipart/form-data' && this.checkMultipartFormBody(parsedBody.body, pattern)) {
                             audits.push({scope: 'multipart form', attackName,  pattern})
                             this.log([`\t[***] ${attackName} attack pattern detected in Multipart Form Body:`, pattern])
                         } else if(parsedBody.type === 'application/x-www-form-urlencoded' && this.checkJsonBody(parsedBody.body, pattern)) {

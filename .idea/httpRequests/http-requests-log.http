@@ -1,4 +1,839 @@
 POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 458
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+ AS INJECTX WHERE 1=1 AND 1=1--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T144442.418.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 458
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+ AS INJECTX WHERE 1=1 AND 1=1--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T144411.418.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: text/html
+Content-Length: 272
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a sample HTML content.</p>
+</body>
+</html>
+
+<> 2024-08-29T143224.404.html
+
+###
+
+PUT http://localhost:1234/normal
+Content-Type: application/json
+Content-Length: 840
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "manualLicenceComponents": [
+    {
+      "type": "Product",
+      "props": {
+        "code": "TR7-HS-715-SEC"
+      }
+    },
+    {
+      "type": "Additions",
+      "props": {
+        "addition_type": "Network Module",
+        "code": "TR-NM-7000-S14436",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Additions",
+      "props": {
+        "addition_type": "Transceiver Module",
+        "code": "TR-SFP-LX-MS1310",
+        "quantity": 1
+      }
+    },
+    {
+      "type": "Maintenance",
+      "props": {
+        "code": "TR7-HS-715-SEC-Dedicated-3M",
+        "start_date": "2024-08-23"
+      }
+    }
+  ],
+  "licenceConfiguration": {
+    "name": "TestLic",
+    "organization": "TR7",
+    "type": "or 1=1--",
+    "isPoc": true,
+    "ttlUnit": "weeks",
+    "ttl": 15
+  },
+  "licenceOrganization": "TR7",
+  "licenceName": "Test"
+}
+
+<> 2024-08-29T143202.418.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 458
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+ AS INJECTX WHERE 1=1 AND 1=1--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T143159.418.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 458
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+ AS INJECTX WHERE 1=1 AND 1=1--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T143104.418.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 450
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+UNION ALL SELECT NULL--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T143044.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 450
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+UNION ALL SELECT NULL--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T142933.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 450
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+UNION ALL SELECT NULL--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T142841.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 450
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+UNION ALL SELECT NULL--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T142820.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 450
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+UNION ALL SELECT NULL--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T142747.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 451
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+ UNION ALL SELECT NULL--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T142736.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 432
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T142706.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 432
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T142630.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data;
+Content-Length: 288
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T142557.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 288
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T142539.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 288
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T142502.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 288
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T142045.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 288
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+admin
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-08-29T141630.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 256
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+') or true--
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T141435.404.html
+
+###
+
+POST http://localhost:1234/normal
+Host: http://localhost:1234
+Content-Type: zıbabıvj
+Content-Length: 256
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+') or true--
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T141417.404.html
+
+###
+
+POST http://localhost:1234/normal
+Host: http://localhost:1234
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 256
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+') or true--
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T140205.404.html
+
+###
+
+POST http://localhost:1234/normal
+Host: http://localhost:1234
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 256
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+') or true--
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T135809.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 256
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+') or true--
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T135730.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 256
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+') or true--
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T120206.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 256
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+') or true--
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T120127.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 256
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+') or true--
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T120028.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 256
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+cem gulumser
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T120018.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 256
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+') or true--
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T115918.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 256
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+') or true--
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T115850.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 256
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+') or true--
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T115828.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 256
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+') or true--
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T115753.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 259
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+Cem Gülümsér
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T115741.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 259
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+Cem Gülümsér
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T115047.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 259
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+Cem Gülümsér
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T114315.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 259
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+Cem Gülümsér
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T114148.404.html
+
+###
+
+POST http://localhost:1234/normal
+Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
+Content-Length: 259
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary123
+Content-Disposition: form-data; name="username"
+
+Cem Gülümsér
+--boundary123
+Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
+Content-Type: text/plain
+
+This is a small example file content.') or true--
+--boundary123--
+
+<> 2024-08-29T112920.404.html
+
+###
+
+POST http://localhost:1234/normal
 Content-Type: text/css
 Content-Length: 152
 Connection: Keep-Alive
@@ -276,1012 +1111,6 @@ user[addresses][1][type]=work&
 user[addresses][1][address]=456+Corporate+Blvd%2C+Ankara
 
 <> 2024-08-29T102701.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 332
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-user[name]=Cem+G%C3%BCl%C3%BCms%C3%A9r&
-user[email]=cem.gul%C3%BCmser%40example.com&
-user[preferences][notifications]=true&
-user[preferences][newsletter]=false&
-user[addresses][0][type]=home&
-user[addresses][0][address]=123+Main+St%2C+Istanbul&
-user[addresses][1][type]=work&
-user[addresses][1][address]=456+Corporate+Blvd%2C+Ankara
-
-<> 2024-08-29T102559.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 73
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
-
-<> 2024-08-29T102459.404.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-29T102233.404.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 838
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-
-<> 2024-08-29T102221.404.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-29T102210.404.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-29T102205.404.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-29T102132.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
-Content-Length: 259
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
---boundary123
-Content-Disposition: form-data; name="username"
-
-Cem Gülümsér
---boundary123
-Content-Disposition: form-data; name="profile_pic"; filename="example.txt"
-Content-Type: text/plain
-
-This is a small example file content.') or true--
---boundary123--
-
-<> 2024-08-29T102111.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
-Content-Length: 439
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="username"
-
-/etc/shadow
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="') or true--"
-
-admin
------------------------------2102512801813682967680946991--
-
-<> 2024-08-29T102002.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
-Content-Length: 435
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="username"
-
-/etc/shadow
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="password"
-
-admin
------------------------------2102512801813682967680946991--
-
-<> 2024-08-29T101946.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
-Content-Length: 429
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="username"
-
-admin
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="password"
-
-admin
------------------------------2102512801813682967680946991--
-
-<> 2024-08-29T101929.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
-Content-Length: 429
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="username"
-
-admin
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="password"
-
-admin
------------------------------2102512801813682967680946991--
-
-<> 2024-08-29T101115.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
-Content-Length: 429
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="username"
-
-admin
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="password"
-
-admin
------------------------------2102512801813682967680946991--
-
-<> 2024-08-29T100938.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
-Content-Length: 429
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="username"
-
-admin
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="password"
-
-admin
------------------------------2102512801813682967680946991--
-
-<> 2024-08-29T100846.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
-Content-Length: 429
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="username"
-
-admin
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="password"
-
-admin
------------------------------2102512801813682967680946991--
-
-<> 2024-08-28T164619.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
-Content-Length: 429
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="username"
-
-admin
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="password"
-
-admin
------------------------------2102512801813682967680946991--
-
-<> 2024-08-28T164559.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
-Content-Length: 429
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="username"
-
-admin
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="password"
-
-admin
------------------------------2102512801813682967680946991--
-
-<> 2024-08-28T164252.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
-Content-Length: 429
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="username"
-
-admin
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="password"
-
-admin
------------------------------2102512801813682967680946991--
-
-<> 2024-08-28T164141.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
-Content-Length: 429
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="username"
-
-admin
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="password"
-
-admin
------------------------------2102512801813682967680946991--
-
-<> 2024-08-28T164034.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
-Content-Length: 429
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="username"
-
-admin
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="password"
-
-admin
------------------------------2102512801813682967680946991--
-
-<> 2024-08-28T164000.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: text/html
-Content-Length: 272
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>This is a sample HTML content.</p>
-</body>
-</html>
-
-<> 2024-08-28T163937.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=---------------------------2102512801813682967680946991
-Content-Length: 429
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="username"
-
-admin
------------------------------2102512801813682967680946991
-Content-Disposition: form-data; name="password"
-
-admin
------------------------------2102512801813682967680946991--
-
-<> 2024-08-28T163857.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Length: 244
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="username"
-
-CemGülümser
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="email"
-
-cem@example.com
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-
-<> 2024-08-28T163752.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Length: 244
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="username"
-
-CemGülümser
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="email"
-
-cem@example.com
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-
-<> 2024-08-28T163742.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Length: 405
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="username"
-
-CemGülümser
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="email"
-
-cem@example.com
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="file"; filename="example.png"
-Content-Type: image/png
-
-(binary data of the file)
-------WebKitFormBoundary7MA4YWxkTrZu0gW--
-
-<> 2024-08-28T163717.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Length: 589
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="username"
-
-CemGülümser
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="email"
-
-cem@example.com
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="file"; filename="example.png"
-Content-Type: image/png
-
-< C:\Users\cemg\AppData\Local\Temp\http_request_input_file2032.txt
-------WebKitFormBoundary7MA4YWxkTrZu0gW--
-
-<> 2024-08-28T163634.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 73
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
-
-<> 2024-08-28T163337.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: text/html
-Content-Length: 272
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>This is a sample HTML content.</p>
-</body>
-</html>
-
-<> 2024-08-28T163304.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 73
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
-
-<> 2024-08-28T163254.404.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-28T163241.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Length: 589
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="username"
-
-CemGülümser
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="email"
-
-cem@example.com
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="file"; filename="example.png"
-Content-Type: image/png
-
-< C:\Users\cemg\AppData\Local\Temp\http_request_input_file19165.txt
-------WebKitFormBoundary7MA4YWxkTrZu0gW--
-
-<> 2024-08-28T153840.418.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 112
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-    "query": {
-        user(id: \"123\") {
-            id
-            name
-            email
-        }
-    }
-}
-
-<> 2024-08-28T151557.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: text/javascript
-Content-Length: 214
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-document.addEventListener('DOMContentLoaded', function() {
-    const button = document.getElementById('myButton');
-    button.addEventListener('click', function() {
-        alert('Button was clicked!');
-    });
-});
-
-<> 2024-08-28T151546.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: text/css
-Content-Length: 131
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-}
-
-h1 {
-    color: #333333;
-}
-
-p {
-    font-size: 16px;
-}
-
-<> 2024-08-28T151537.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: text/html
-Content-Length: 272
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>This is a sample HTML content.</p>
-</body>
-</html>
-
-<> 2024-08-28T151513.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 73
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-username=CemG%C3%BCl%C3%BCmser&email=cem%40example.com&password=secret123
-
-<> 2024-08-28T151503.404.html
-
-###
-
-PUT http://localhost:1234/normal
-Content-Type: application/json
-Content-Length: 840
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "manualLicenceComponents": [
-    {
-      "type": "Product",
-      "props": {
-        "code": "TR7-HS-715-SEC"
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Network Module",
-        "code": "TR-NM-7000-S14436",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Additions",
-      "props": {
-        "addition_type": "Transceiver Module",
-        "code": "TR-SFP-LX-MS1310",
-        "quantity": 1
-      }
-    },
-    {
-      "type": "Maintenance",
-      "props": {
-        "code": "TR7-HS-715-SEC-Dedicated-3M",
-        "start_date": "2024-08-23"
-      }
-    }
-  ],
-  "licenceConfiguration": {
-    "name": "TestLic",
-    "organization": "TR7",
-    "type": "or 1=1--",
-    "isPoc": true,
-    "ttlUnit": "weeks",
-    "ttl": 15
-  },
-  "licenceOrganization": "TR7",
-  "licenceName": "Test"
-}
-
-<> 2024-08-28T151452.404.html
 
 ###
 
