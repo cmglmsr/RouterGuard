@@ -1,3 +1,129 @@
+POST http://localhost:1234/test
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 458
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+ AS INJECTX WHERE 1=1 AND 1=1--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-09-10T171229.418.html
+
+###
+
+POST http://localhost:1234/upload/images
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 458
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+ AS INJECTX WHERE 1=1 AND 1=1--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-09-10T171205.418.html
+
+###
+
+POST http://localhost:1234/upload/videos
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 458
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+ AS INJECTX WHERE 1=1 AND 1=1--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-09-10T171150.418.html
+
+###
+
+POST http://localhost:1234/upload/videos
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 458
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+ AS INJECTX WHERE 1=1 AND 1=1--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-09-10T171045.418.html
+
+###
+
+POST http://localhost:1234/upload/images
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 458
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+ AS INJECTX WHERE 1=1 AND 1=1--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-09-10T171025.418.html
+
+###
+
+POST http://localhost:1234/upload/images
+Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
+Content-Length: 458
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="username"
+
+ AS INJECTX WHERE 1=1 AND 1=1--
+-----------------------------77127925828054766374111349759
+Content-Disposition: form-data; name="password"
+
+admin
+-----------------------------77127925828054766374111349759--
+
+<> 2024-09-10T170931.418.html
+
+###
+
 POST http://localhost:1234/normal
 Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
 Content-Length: 458
@@ -987,130 +1113,6 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 </html>
 
 <> 2024-08-29T103742.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: text/html
-Content-Length: 272
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>This is a sample HTML content.</p>
-</body>
-</html>
-
-<> 2024-08-29T103643.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 360
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-user[name]=Cem+G%C3%BCl%C3%BCms%C3%A9r&
-user[email]=cem.gul%C3%BCmser%40example.com&
-user[preferences][notifications]=true&
-user[preferences][newsletter]=false&
-user[addresses][0][type]=home&
-user[addresses][0][address]=123+Main+St%2C+ AS INJECTX WHERE 1=1 AND 1=0--&
-user[addresses][1][type]= ORDER BY&
-user[addresses][1][address]=456+Corporate+Blvd%2C+Ankara
-
-<> 2024-08-29T103006.418.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 332
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-user[name]=Cem+G%C3%BCl%C3%BCms%C3%A9r&
-user[email]=cem.gul%C3%BCmser%40example.com&
-user[preferences][notifications]=true&
-user[preferences][newsletter]=false&
-user[addresses][0][type]=home&
-user[addresses][0][address]=123+Main+St%2C+Istanbul&
-user[addresses][1][type]=work&
-user[addresses][1][address]=456+Corporate+Blvd%2C+Ankara
-
-<> 2024-08-29T102950.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 410
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-user[name]=Cem+G%C3%BCl%C3%BCms%C3%A9r&
-user[email]=cem.gul%C3%BCmser%40example.com&
-user[preferences][notifications]=true&
-user[preferences][newsletter]=false&
-user[addresses][0][type]=home&
-user[addresses][0][address]=123+Main+St%2C+Istanbul&
-user[addresses][1][type]=work&
-user[addresses][1][address]=456+Corporate+Blvd%2C+ RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='
-
-<> 2024-08-29T102735.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 352
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-user[name]=Cem+G%C3%BCl%C3%BCms%C3%A9r&
-user[email]=cem.gul%C3%BCmser%40example.com&
-user[preferences][notifications]=true&
-user[preferences][newsletter]=false&
-user[addresses][0][type]=home&
-user[addresses][0][address]=123+Main+St%2C+AND 7506=9091 AND (5913=5913&
-user[addresses][1][type]=work&
-user[addresses][1][address]=456+Corporate+Blvd%2C+Ankara
-
-<> 2024-08-29T102717.404.html
-
-###
-
-POST http://localhost:1234/normal
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 332
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-user[name]=Cem+G%C3%BCl%C3%BCms%C3%A9r&
-user[email]=cem.gul%C3%BCmser%40example.com&
-user[preferences][notifications]=true&
-user[preferences][newsletter]=false&
-user[addresses][0][type]=home&
-user[addresses][0][address]=123+Main+St%2C+Istanbul&
-user[addresses][1][type]=work&
-user[addresses][1][address]=456+Corporate+Blvd%2C+Ankara
-
-<> 2024-08-29T102701.404.html
 
 ###
 

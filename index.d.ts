@@ -19,6 +19,7 @@ declare class rtguard {
         allowedMethods?: string[];
         maxRequestSize?: number;
         verbose?: boolean;
+        multer?: Function;
     });
 
     initialAudit(req: { method: string; headers: { [key: string]: string } }): string | false;
@@ -31,4 +32,6 @@ declare class rtguard {
     log(args: any[]): void;
 }
 
-export { rtguard };
+type DynamicOption = string | string[] | (<Type>(arg: Type) => Type)
+
+export { rtguard, DynamicOption };

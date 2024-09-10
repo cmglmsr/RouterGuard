@@ -38,6 +38,7 @@ The **RT Guard** middleware is a security middleware for Express.js applications
 - **Verbose Logging (`verbose`)**: Optionally logs detailed information about the request and audit process.
     - `true`: Enable verbose logging.
     - `false`: Disable verbose logging.
+- **Multer (`multer`)**: Provide a custom multer for parsing multipart form data bodies. You may provide a single multer instance, or a function that returns different types of multers for different interfaces. See Example Configuration (for multi-multer applications) below.
 
 ## Example Configuration
 ```javascript
@@ -48,6 +49,25 @@ const guardConfig = {
     maxRequestSize: 8192, // Increased request size limit
     verbose: false // No logging
 };
+```
+
+## Example Configuration (for multi-multer applications)
+```javascript
+const guardConfig = {
+  plevel: 3,
+  allowedBodyTypes: ['*'],
+  allowedMethods: [ 'PUT', 'GET', 'POST'],
+  maxRequestSize: 8192,
+  verbose: true,
+  multer: (req) => {
+    if (req.path.startsWith('/upload/images')) {
+      return multer({ storage: multer.memoryStorage() }).single('image');
+    } else if (req.path.startsWith('/upload/videos')) {
+      return multer({ storage: multer.diskStorage({ destination: './uploads/videos' }) }).single('video');
+    }
+    return multer().any();
+  }
+}
 ```
 
 ## Installation

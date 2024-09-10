@@ -1,4 +1,4 @@
-POST http://localhost:1234/normal
+POST http://localhost:1234/test
 Content-Type: multipart/form-data; boundary=---------------------------77127925828054766374111349759
 
 -----------------------------77127925828054766374111349759

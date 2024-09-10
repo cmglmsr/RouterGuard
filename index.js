@@ -13,9 +13,14 @@ class rtguard {
         this.verbose = !!config?.verbose
         this.multer = config?.multer || multer().any();
         this.action = config?.action || 'block' // Action to take when a malicious request is detected
+        this.useMulterFunction = false
 
         if(this.plevel > 10 || this.plevel < 1) {
             throw new Error('Illegal value: plevel must be in between 1-10.')
+        }
+
+        if(config?.multer && typeof this.multer === 'function') {
+            this.useMulterFunction = true
         }
 
         this.rtguard = this.rtguard.bind(this)
@@ -40,6 +45,13 @@ class rtguard {
             return 'Request exceeds maximum allowed size.'
         }
         return false
+    }
+
+    getMulterInstance(req) {
+        if(this.useMulterFunction) {
+            return this.multer(req)
+        }
+        return this.multer
     }
 
     checkURL(url, regex) {
@@ -73,7 +85,8 @@ class rtguard {
                     resolve({body: parsedBody, type: 'application/json'})
                 });
             } else if (contentType.includes('multipart/form-data')) {
-                this.multer(req, res, (err) => {
+                const multerInstance = this.getMulterInstance(req)
+                multerInstance(req, res, (err) => {
                     if(err) reject(err)
                     else {
                         parsedBody = { files: req.files, fields: req.body };

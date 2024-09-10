@@ -8,7 +8,14 @@ const rt = new rtguard({
     allowedMethods: [ 'PUT', 'GET', 'POST'],
     maxRequestSize: 8192,
     verbose: true,
-    multer: multer().none()
+    multer: (req) => {
+        if (req.path.startsWith('/upload/images')) {
+            return multer({ storage: multer.memoryStorage() }).single('image');
+        } else if (req.path.startsWith('/upload/videos')) {
+            return multer({ storage: multer.diskStorage({ destination: './uploads/videos' }) }).single('video');
+        }
+        return multer().any();
+    }
 })
 
 const app = express()
